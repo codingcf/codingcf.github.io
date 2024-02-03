@@ -1,9 +1,7 @@
 
 name: Proselint Check
 
-on:
-  pull_request:
-    types: [opened, synchronize]
+on: [push]
 
 jobs:
   proselint-check:
